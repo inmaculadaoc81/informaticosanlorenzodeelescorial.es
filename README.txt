@@ -409,3 +409,55 @@ tecnológico, no colores llamativos ni disruptivos"):
   paleta.
 - Sin cambios en el verde de WhatsApp, el rojo de YouTube ni la banda
   de cookies (colores de terceros / estándar de familia).
+
+────────────────────────────────────────────────────────────
+ADAPTACIÓN A ESCORIALTECH SERVICIO INFORMÁTICO PARA EMPRESAS
+(repositorio clonado a partir de RetiroTech)
+────────────────────────────────────────────────────────────
+
+MARCA Y TEXTOS:
+- "RetiroTech" → "EscorialTech" en cabecera, pie de página, JSON-LD
+  (name) y mensaje prellenado de WhatsApp ("¡Hola EscorialTech").
+- Title: "EscorialTech Servicio Informático para Empresas" (texto
+  exacto indicado por el cliente, sin "|" ni municipio en el propio
+  título). Meta description, og:title y og:description reescritos
+  mencionando San Lorenzo de El Escorial, Madrid.
+- H1 propio de 9 palabras exactas, distinto de los de los repos
+  hermanos: "Damos soporte técnico a empresas, sin complicaciones ni
+  esperas."
+- Fila "Zona": "Retiro, Madrid" → "San Lorenzo de El Escorial,
+  Madrid".
+- FAQ "¿Trabajáis solo en Retiro?" → "¿Trabajáis solo en San Lorenzo
+  de El Escorial?", con la respuesta adaptada a "San Lorenzo de El
+  Escorial y alrededores" (municipio propio, no distrito de la
+  capital, mismo criterio que Majahonda/Las Rozas/Collado
+  Villalba/Torrelodones/Pozuelo).
+- Tarjeta de información de contacto: el h2 actualizado al título
+  exacto de esta web: "EscorialTech Servicio Informático para
+  Empresas" (se corrigió aparte, ya que el rebranding automático solo
+  cambiaba el nombre de marca y dejaba "| Mantenimiento Informático en
+  Retiro" sin tocar).
+- JSON-LD: description y areaServed actualizados a San Lorenzo de El
+  Escorial, Madrid.
+
+DOMINIO Y ENLACES:
+- canonical, og:url y JSON-LD "url" → https://mantenimientoinformaticosanlorenzodeelescorial.es/
+  (dominio indicado directamente por el cliente).
+- sitemap.xml y robots.txt actualizados al nuevo dominio.
+- Enlace de Google Maps actualizado en las 4 ubicaciones del sitio a
+  https://maps.app.goo.gl/bnvnvSPDLHzcyvCS8, proporcionado por el
+  cliente.
+
+TELÉFONO Y WHATSAPP: sin cambios, mismo número compartido por toda la
+familia.
+
+COLOR (regla permanente de la subfamilia — siempre se cambia):
+- Nueva paleta púrpura vivo, distinta de las catorce anteriores:
+  --blue:#5b5fa8→#7a1fb0, --indigo:#3d4f73→#4d1470,
+  --cyan:#8f93e0→#c98fef. Se sitúa entre el violeta de PymeSolutions y
+  el berry-magenta de LineaTech, pero es un púrpura más puro y
+  saturado que ambos.
+- Todos los tonos derivados (fondos de iconos claros, textos en color
+  sobre fondo oscuro, badges, bordes de hover, sombras de botones)
+  recalculados a la misma paleta, mismo contraste que antes.
+- Isotipo (assets/isotipo.svg) recoloreado a juego.
